@@ -9,10 +9,10 @@ to guarantee any messages are processed at least within 24 hours.
 
 ### Options:
 
-   addresses     a comma separated list of 'host[:port]' addresses                 ${spring.rabbitmq.addresses}  java.lang.String
-   password      the password to use to connect to the broker                      ${spring.rabbitmq.password}   java.lang.String
-   username      the username to use to connect to the broker                      ${spring.rabbitmq.username}   java.lang.String
-   maxSize       the maximum size of the queue before messages will be processed   1                             int
-   queue         the queue from which messages will be processed                   <none>                        java.lang.String
+* **addresses**    a comma separated list of 'host[:port]' addresses                 ${spring.rabbitmq.addresses}  java.lang.String
+* **password**      the password to use to connect to the broker                      ${spring.rabbitmq.password}   java.lang.String
+* **username**      the username to use to connect to the broker                      ${spring.rabbitmq.username}   java.lang.String
+* **maxSize**       the maximum size of the queue before messages will be processed   1                             int
+* **queue**         the queue from which messages will be processed                   <none>                        java.lang.String
 
 
